@@ -5,7 +5,7 @@ const SobreMi = () => {
         <p className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl mt-8 w-1/3 h-2">{" "}</p>
           <h1 className="text-4xl font-bold">Sobre mí</h1>
           <figure className=" bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200 rounded-xl p-10  my-5">
-              <img className="w-52 h-52 rounded-full mx-auto" src="src/img/yop.jpg" alt="imagen Nahuel Pardo" />
+              <img className="w-52 h-52 rounded-full mx-auto" src="img/yop.jpg" alt="imagen Nahuel Pardo" />
               <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
               <figcaption class="font-medium">
                   <div class="text-sky-500 dark:text-sky-700">
