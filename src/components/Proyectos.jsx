@@ -36,7 +36,7 @@ const Proyectos = () => {
                 </div>
 
               </div>
-                <img src="img/proyectos/criptos.jpg" alt="Proyecto criptos" className=" md:m-2 w-auto xl:h-80 order-1 "/>
+                <img src="/src/img/proyectos/criptos.jpg" alt="Proyecto criptos" className=" md:m-2 w-auto xl:h-80 order-1 "/>
               </article>
 
             <article className="flex flex-col gap-2 mt-10 ">
@@ -47,7 +47,7 @@ const Proyectos = () => {
                   <a href="https://github.com/NahuPardo/ControlGastos-React" className="bg-gradient-to-r from-blue-600 to-blue-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:from-blue-600 hover:to-blue-700 duration-300 ...  rounded-md text-white p-2">Repositorio</a>
                 </div>
               </div>
-                <img src="img/proyectos/controlDeGastos.jpg" alt="Proyecto Control de gastos" className=" md:m-2 w-auto xl:h-80 order-1"/>
+                <img src="/src/img/proyectos/controlDeGastos.jpg" alt="Proyecto Control de gastos" className=" md:m-2 w-auto xl:h-80 order-1"/>
               </article>
             <article className="flex flex-col gap-2 mt-10 ">
             <div className="flex flex-col order-2 text-xl justify-between mx-3">
@@ -57,7 +57,7 @@ const Proyectos = () => {
                 <a href="https://github.com/NahuPardo/AdministradorDePacientes" className="bg-gradient-to-r from-blue-600 to-blue-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:from-blue-600 hover:to-blue-700 duration-300 ...  rounded-md text-white p-2">Repositorio</a>
               </div>
             </div>
-              <img src="img/proyectos/pacientes-vet.jpg" alt="Proyecto Pacientes veterinaria" className=" md:m-2 w-auto xl:h-80 order-1 "/>
+              <img src="/src/img/proyectos/pacientes-vet.jpg" alt="Proyecto Pacientes veterinaria" className=" md:m-2 w-auto xl:h-80 order-1 "/>
             </article>
 
             <article className="flex flex-col gap-2 mt-10 ">
@@ -68,7 +68,7 @@ const Proyectos = () => {
                 <a href="https://github.com/NahuPardo/RockFestival" className="bg-gradient-to-r from-blue-600 to-blue-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:from-blue-600 hover:to-blue-700 duration-300 ...  rounded-md text-white p-2">Repositorio</a>
               </div>
             </div>
-              <img src="img/proyectos/festival.jpg" alt="Proyecto Festival" className=" md:m-2 w-auto xl:h-80 order-1 "/>
+              <img src="/src/img/proyectos/festival.jpg" alt="Proyecto Festival" className=" md:m-2 w-auto xl:h-80 order-1 "/>
             </article>
 
             <article className="flex flex-col gap-2 mt-10 ">
@@ -79,7 +79,7 @@ const Proyectos = () => {
                 <a href="https://github.com/NahuPardo/BlogDeCafe" className="bg-gradient-to-r from-blue-600 to-blue-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:from-blue-600 hover:to-blue-700 duration-300 ...  rounded-md text-white p-2">Repositorio</a>
               </div>
             </div>
-              <img src="img/proyectos/blogCafe.jpg" alt="Proyecto Blog de Cafe" className=" md:m-2 w-auto xl:h-80 order-1 "/>
+              <img src="/src/img/proyectos/blogCafe.jpg" alt="Proyecto Blog de Cafe" className=" md:m-2 w-auto xl:h-80 order-1 "/>
             </article>
 
             <article className="flex flex-col gap-2 mt-10 ">
@@ -90,7 +90,7 @@ const Proyectos = () => {
                 <a href="https://github.com/NahuPardo/FrontEndStore" className="bg-gradient-to-r from-blue-600 to-blue-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:from-blue-600 hover:to-blue-700 duration-300 ...  rounded-md text-white p-2">Repositorio</a>
               </div>
             </div>
-              <img src="img/proyectos/frontEndStore.jpg" alt="Proyecto Front End Store" className=" md:m-2 w-auto xl:h-80 order-1 "/>
+              <img src="/src/img/proyectos/frontEndStore.jpg" alt="Proyecto Front End Store" className=" md:m-2 w-auto xl:h-80 order-1 "/>
             </article>
 
             <article className="flex flex-col gap-2 mt-10">
@@ -101,7 +101,7 @@ const Proyectos = () => {
                   <a href="https://github.com/NahuPardo/FreeLancer" className="bg-gradient-to-r from-blue-600 to-blue-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:from-blue-600 hover:to-blue-700 duration-300 ...  rounded-md text-white p-2">Repositorio</a>
                 </div>
               </div>
-                <img src="img/proyectos/freelancer.jpg" alt="Proyecto Freelancer" className=" md:m-2 w-auto xl:h-80 order-1 "/>
+                <img src="/src/img/proyectos/freelancer.jpg" alt="Proyecto Freelancer" className=" md:m-2 w-auto xl:h-80 order-1 "/>
               </article>
           </Carousel>
         </div>
