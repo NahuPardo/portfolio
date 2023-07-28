@@ -1,4 +1,5 @@
 import yop from '../img/yop.jpg'
+import Cv from '.../public/NahuelPardoCV.pdf'
 
 const SobreMi = () => {
   return (
@@ -23,7 +24,7 @@ const SobreMi = () => {
                     </p>
                   </blockquote>
                   <div className=''>
-                    <a href="./public/NahuelPardoCV.pdf" download={''} className="bg-gradient-to-r from-sky-600 to-sky-800 hover:from-sky-600 hover:to-sky-700  rounded-md text-white p-2">Descargar CV</a>
+                    <a href={Cv} download={''} className="bg-gradient-to-r from-sky-600 to-sky-800 hover:from-sky-600 hover:to-sky-700  rounded-md text-white p-2">Descargar CV</a>
                   </div>
               </div>
           </figure>
