@@ -1,5 +1,4 @@
 import yop from '../img/yop.jpg'
-import cv from './NahuelpardoCV.pdf'
 
 const SobreMi = () => {
   return (
