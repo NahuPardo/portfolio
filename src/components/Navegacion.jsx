@@ -9,7 +9,8 @@ const Navegacion = () => {
   return (
     <div className="w-screen h-[100px] z-10 bg-slate-100 fixed">
         <div className='px-5 items-center flex justify-between w-full h-full'>
-        <img src={logo} alt='Logo Nahuel Pardo' className=' w-auto h-24 py-2 pl-2'/>
+          <a href="#inicio">
+        <img src={logo} alt='Logo Nahuel Pardo' className=' w-auto h-24 py-2 pl-2'/></a>
             <div className='flex items-center'>
               <ul className=" hidden md:flex justify-between font-semibold">
                 <li>

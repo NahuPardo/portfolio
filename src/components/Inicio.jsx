@@ -12,7 +12,7 @@ const Inicio = () => {
 
   return (
     <>
-    <div className="container mx-auto w-5/6">
+    <div className="container mx-auto w-5/6" id="inicio">
         <div className="flex items-center flex-col md:flex-row pt-32">
             <p className="flex w-1/2 text-2xl md:text-3xl flex-col items-start my-3 md:my-0  md:items-end font-normal">Hola a todxs👋🏻, me llamo <span className="text-3xl md:text-4xl text-blue-800">Nahuel Pardo</span> y soy Front-End Developer.</p>
             <img src={coding} alt="Imagen Codigo" className="w-1/2 h-1/2" />
