@@ -1,15 +1,17 @@
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import { useState } from 'react'
+import logo from '../img/LogoNombre.png'
+
 
 const Navegacion = () => {
       const [nav, setNav] = useState(false)
       const handleClick = () => setNav(!nav)
   return (
-    <div className="w-screen h-[80px] z-10 bg-slate-100 fixed">
-        <div className='px-2 flex justify-between items-center w-full h-full'>
+    <div className="w-screen h-[100px] z-10 bg-slate-100 fixed">
+        <div className='px-5 items-center flex justify-between w-full h-full'>
+        <img src={logo} alt='Logo Nahuel Pardo' className=' w-24 h-24'/>
             <div className='flex items-center'>
-              <h1 className='text-3xl font-bold mr-4 sm:text-4xl'></h1>
-              <ul className=" hidden md:flex">
+              <ul className=" hidden md:flex justify-between font-semibold">
                 <li>
                   <a className="flex flex-row cursor-pointer hover:text-blue-700"href="#sobreMi" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" href="#sobreMi" />
