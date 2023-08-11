@@ -19,7 +19,7 @@ const SobreMi = () => {
                 </figcaption>
                   <blockquote>
                     <p class="text-lg font-medium text-black">
-                      Soy una persona muy dedicada, organizada, extrovertida y adaptable a los diferentes ámbitos de trabajo. Comenzé con la programación para probar algo nuevo y con el tiempo se convirtió en lo que me apasiona y a lo que me quiero dedicar. Me gustaria poder seguir creciendo y desarrollarme como developer consiguiendo un mejor nivel en los lenguajes vistos como tambien aprendiendo nuevos. Tengo diferentes tipos de hobbies como el futbol, el gimnasio y el gaming.
+                      Soy una persona muy dedicada, organizada, extrovertida y adaptable a los diferentes ámbitos de trabajo. Comenzé con la programación para probar algo nuevo y con el tiempo se convirtió en lo que me apasiona y a lo que me quiero dedicar. Me gustaria poder seguir creciendo y desarrollarme como profesional consiguiendo un mejor nivel en los lenguajes vistos como tambien aprendiendo nuevos. Tengo diferentes tipos de hobbies como el futbol, el gimnasio y el gaming.
                     </p>
                   </blockquote>
                   <div className=''>

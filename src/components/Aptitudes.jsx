@@ -8,6 +8,14 @@ import php from '../img/logos/php.png'
 import reactjs from '../img/logos/reactjs.png'
 import sass from '../img/logos/sass.png'
 import tailwind from '../img/logos/tailwind.png'
+import express from '../img/logos/express.png'
+import GraphQl from '../img/logos/GraphQL.png'
+import jira from '../img/logos/jira.png'
+import mongoDB from '../img/logos/mongoDB.png'
+import next from '../img/logos/next.png'
+import node from '../img/logos/node.png'
+import redux from '../img/logos/redux.png'
+import remix from '../img/logos/remix.png'
 
 
 const Aptitudes = () => {
@@ -66,6 +74,46 @@ const Aptitudes = () => {
             <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
               <img src={sass} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
               <p className="font-semibold">SASS</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={express} alt="logo express js" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
+              <p className="font-semibold">Express</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={GraphQl} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
+              <p className="font-semibold">GraphQL</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={jira} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
+              <p className="font-semibold">Jira</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={mongoDB} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
+              <p className="font-semibold">MongoDB</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={next} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
+              <p className="font-semibold">Next JS</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={node} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
+              <p className="font-semibold">Node JS</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={redux} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110"/>
+              <p className="font-semibold">Redux</p>
+            </div>
+
+            <div className="flex flex-col gap-1 h-20 w-20 items-center justify-center">
+              <img src={remix} alt="logo sass" className="transition-transform duration-300 transform-gpu hover:scale-110 h-16"/>
+              <p className="font-semibold">Remix</p>
             </div>
 
           </div>
