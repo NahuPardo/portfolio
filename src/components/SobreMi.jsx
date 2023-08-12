@@ -1,4 +1,4 @@
-import yop from '../img/yop.jpg'
+import yop from '../img/yop.png'
 
 const SobreMi = () => {
   return (
