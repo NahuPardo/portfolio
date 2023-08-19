@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
+import { TypeAnimation } from "react-type-animation";
 
 const navItems = [
   {
@@ -64,8 +65,19 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
             onClick={() => window.scrollTo(0, 0)}
             to="/"
             className="text-3xl font-bold sm:text-3xl"
-          >
-            Nahuel Pardo.
+          ><TypeAnimation
+          data-aos="fade-up"
+          sequence={[
+            "Nahuel Pardo.",
+            2000,
+            "",
+            2000,
+          ]}
+          speed={30}
+          wrapper="h3"
+          repeat={Infinity}
+          className=" text-black text-4xl font-bold sm:text-3xl"
+        />
           </Link>
         </div>
         <div
