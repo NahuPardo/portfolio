@@ -1,39 +1,35 @@
-import { useState } from 'react'
-import Inicio from './components/Inicio'
-import Navegacion from './components/Navegacion'
-import Proyectos from './components/Proyectos'
-import SobreMi from './components/SobreMi'
-import Aptitudes from './components/Aptitudes'
-import Experiencia from './components/Experiencia'
-import Contacto from './components/Contacto'
+import React, { useState, useEffect } from "react";
+import { Suspense } from "react";
+import { BarLoader } from "react-spinners";
+import Home from "./pages/Home";
 
+const App = () => {
+  const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
 
-
-
-
-function App() {
-  
   return (
-    
-    <>
-       
-        <header>
-            <Navegacion/>
-        </header>
-        <body>
-          
-        
-            <Inicio />
-            <SobreMi/>
-            <Proyectos/>
-            <Aptitudes/>
-            <Experiencia/>
-            <Contacto/>
-          </body>
-        
-    </>
-  )
-}
+    <Suspense
+      fallback={
+        <div className="h-screen w-full flex items-center justify-center">
+          <BarLoader color="#0ea5e9" height={4} />
+        </div>
+      }
+    >
+      {loading ? (
+        <div className="h-screen w-full flex items-center justify-center">
+          <BarLoader color="#0ea5e9" height={4} />
+        </div>
+      ) : (
+        <Home />
+      )}
+    </Suspense>
+  );
+};
 
-export default App
+export default App;
