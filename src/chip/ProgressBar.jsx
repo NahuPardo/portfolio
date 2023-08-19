@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 const ProgressBar = ({ logo, name, value, duration = 3 }) => {
