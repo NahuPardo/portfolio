@@ -28,7 +28,7 @@ const navItems = [
   },
 ];
 
-const NavBar = ({theme, setTheme}) => {
+const Navbar = ({theme, setTheme}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -139,4 +139,4 @@ const NavBar = ({theme, setTheme}) => {
   );
 };
 
-export default NavBar;
+export default Navbar;
