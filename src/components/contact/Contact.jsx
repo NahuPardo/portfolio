@@ -9,10 +9,10 @@ const Contact = () => {
       <div 
       // data-aos="fade-up"
        className="relative mb-5">
-        <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
+        <h3 className=" text-3xl font-black text-gray-400 dark:text-white sm:text-2xl">
           Contacto
         </h3>
-        <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
+        <span className="h-[1.1px] right-0 absolute w-[91%] bg-gray-300 block"></span>
       </div>
 
       {/* card*/}
@@ -22,8 +22,8 @@ const Contact = () => {
             <div 
             data-aos="zoom-in"
             >
-              <h1 className="text-5xl font-bold sm:text-3xl">Si necesitas</h1>
-              <h3 className="text-xl sm:text-lg">
+              <h1 className="text-5xl font-bold sm:text-3xl dark:text-white">Si necesitas</h1>
+              <h3 className="text-xl sm:text-lg dark:text-white">
                 Un gran diseño para tu website dejame un mensaje
               </h3>
             </div>
@@ -32,7 +32,7 @@ const Contact = () => {
             <button
               data-aos="zoom-in"
               
-              className= " text-sky-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
+              className= " text-sky-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] dark:shadow-white  "
             >
               <BsArrowRight className=" md:rotate-90" />
             </button>
@@ -47,19 +47,19 @@ const Contact = () => {
             action="mailto: nahuelpardo3@gmail.com"
           >
             <input
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] dark:shadow-slate-300 p-2 rounded-lg w-full"
               type="email"
               placeholder="por ej: example@email.com"
               name=""
             />
             <input
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] dark:shadow-slate-300 p-2 rounded-lg w-full"
               type="text"
               placeholder="por ej: Nahuel Pardo"
               name=""
             />
             <textarea
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] dark:shadow-slate-300 p-2 rounded-lg w-full"
               rows="4"
               cols="50"
               placeholder="Escribe tu mensaje"

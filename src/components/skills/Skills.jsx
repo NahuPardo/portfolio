@@ -16,23 +16,23 @@ import { SiPhp } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
-const Skills = ({ darkMode }) => {
+const Skills = ({ theme }) => {
   return (
     <div id="skills">
       <div className=" container m-auto  mt-16">
         {/* heading */}
         <div data-aos="fade-up" className="relative mb-5">
-          <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-            My Skills
+          <h3 className=" text-3xl font-black text-gray-400 dark:text-white sm:text-2xl">
+            Skills
           </h3>
-          <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
+          <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
         </div>
         {/* content*/}
         <div className="flex md:flex-col ">
           <div className="left flex-1 w-full">
             <p
               data-aos="fade-up"
-              className=" text-gray-700 font-medium w-[100%]"
+              className=" text-gray-700 dark:text-white font-medium w-[100%]"
             >
               Mis skills.
             </p>
@@ -42,16 +42,16 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
+                <ProgressBar logo={<IoLogoHtml5 className="dark:text-white"/>} name={"HTML"} value={95} />
+                <ProgressBar logo={<IoLogoCss3 className="dark:text-white"/>} name={"CSS"} value={88} />
                 <ProgressBar
-                  logo={<SiJavascript />}
+                  logo={<SiJavascript className="dark:text-white"/>}
                   name={"Javascript"}
                   value={80}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
+                <ProgressBar logo={<FaReact className="dark:text-white"/>} name={"React Js"} value={80} />
                 <ProgressBar
-                  logo={<SiTailwindcss />}
+                  logo={<SiTailwindcss className="dark:text-white"/>}
                   name={"Tailwind CSS"}
                   value={80}
                 />

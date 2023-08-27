@@ -53,7 +53,7 @@ const WorkCard = () => {
                 </div>
               </div>
             </POPUP>
-            <p className="text-gray-800 text-xl font-medium sm:text-lg">
+            <p className="text-gray-800 text-xl font-medium dark:text-white sm:text-lg">
               {data.title}
             </p>
           </div>
