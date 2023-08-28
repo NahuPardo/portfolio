@@ -38,7 +38,7 @@ const Contact = () => {
             </button>
           </div>
         </div>
-        <div className="right flex-1">
+        <div className="right flex-1 mt-10">
           <form
             
             data-aos="zoom-in"
