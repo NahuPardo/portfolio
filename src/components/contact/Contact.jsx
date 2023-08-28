@@ -48,13 +48,13 @@ const Contact = () => {
           >
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] dark:shadow-slate-300 p-2 rounded-lg w-full"
-              type="email"
+              required type="email"
               placeholder="por ej: example@email.com"
               name=""
             />
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] dark:shadow-slate-300 p-2 rounded-lg w-full"
-              type="text"
+              required type="text"
               placeholder="por ej: Nahuel Pardo"
               name=""
             />
@@ -63,7 +63,7 @@ const Contact = () => {
               rows="4"
               cols="50"
               placeholder="Escribe tu mensaje"
-              name=""
+              required type="text"
               id=""
             />
             <button

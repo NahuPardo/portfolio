@@ -30,12 +30,6 @@ const Skills = ({ theme }) => {
         {/* content*/}
         <div className="flex md:flex-col ">
           <div className="left flex-1 w-full">
-            <p
-              data-aos="fade-up"
-              className=" text-gray-700 dark:text-white font-medium w-[100%]"
-            >
-              Mis skills.
-            </p>
             {/* left box */}
             <div
               data-aos="zoom-in"
