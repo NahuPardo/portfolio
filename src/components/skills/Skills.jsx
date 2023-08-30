@@ -1,5 +1,4 @@
 import React from "react";
-import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
@@ -10,13 +9,14 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiExpress,
+  SiNextdotjs
 } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
 
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
-const Skills = ({ theme }) => {
+const Skills = () => {
   return (
     <div id="skills">
       <div className=" container m-auto  mt-16">
@@ -35,26 +35,52 @@ const Skills = ({ theme }) => {
               data-aos="zoom-in"
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
-              <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 className="dark:text-white"/>} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 className="dark:text-white"/>} name={"CSS"} value={88} />
-                <ProgressBar
-                  logo={<SiJavascript className="dark:text-white"/>}
-                  name={"Javascript"}
-                  value={80}
+              <div className=" flex gap-10  w-3/4  my-5 md:w-[90%]">
+                <div className="first2 flex flex-col gap-10">
+                <SkillBox
+                logo={<IoLogoHtml5 />}
+                black={"black"}
+                white={"white"}
+                skill={"HTML5"}
                 />
-                <ProgressBar logo={<FaReact className="dark:text-white"/>} name={"React Js"} value={80} />
-                <ProgressBar
-                  logo={<SiTailwindcss className="dark:text-white"/>}
-                  name={"Tailwind CSS"}
-                  value={80}
+                <SkillBox
+                logo={<IoLogoCss3 />}
+                black={"black"}
+                white={"white"}
+                skill={"CSS"}
                 />
-              </div>
-            </div>
-          </div>
-          {/* right box */}
-          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-            <div className="first2 flex flex-col gap-10">
+                </div>
+                <div className="last2 flex flex-col gap-10">
+                <SkillBox
+                logo={<SiJavascript />}
+                black={"white"}
+                white={"black"}
+                skill={"JavaScript"}
+                />
+                <SkillBox
+                logo={<FaReact/>}
+                black={"white"}
+                white={"black"}
+                skill={"React"}
+                />
+                </div>
+                <div className="first2 flex flex-col gap-10">
+                <SkillBox
+                logo={<SiTailwindcss />}
+                black={"black"}
+                white={"white"}
+                skill={"Tailwind CSS"}
+                />
+                <SkillBox
+                logo={<SiNextdotjs />}
+                black={"black"}
+                white={"white"}
+                skill={"Next JS"}
+                shadow={"sky-500"}
+                
+                />
+                </div>
+                <div className="first2 flex flex-col gap-10">
               <SkillBox
                 logo={<IoLogoNodejs />}
                 black={"white"}
@@ -84,10 +110,13 @@ const Skills = ({ theme }) => {
                 white={"white"}
                 skill={"PHP"}
               />
-
-              
-             
+              </div>
+              </div>
             </div>
+          </div>
+          
+          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
+            
           </div>
         </div>
       </div>

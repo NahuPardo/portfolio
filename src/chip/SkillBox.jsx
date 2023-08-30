@@ -10,6 +10,8 @@ const SkillBox = ({ logo, black, white, skill }) => {
         " text-" +
         white +
         " shadow-xl dark:shadow-slate-300 flex flex-col items-center justify-center gap-4 p-1 sm:w-[7.2rem] sm:h-[7.2rem] exsm:w-[6.5rem] exsm:h-[6.5rem]"
+        
+
       }
     >
       <div

@@ -22,6 +22,14 @@ export const data = [
       desc: "",
       link: "https://proyectoreact1np.netlify.app/",
       git: "https://github.com/NahuPardo/AdministradorDePacientes",
+    },
+    {
+      id: 4,
+      img: 'https://i.postimg.cc/YqNCJ7mD/Dise-o-sin-t-tulo-12.png',
+      title: "GuitarLA - Venta de Guitarras",
+      desc: "",
+      link: "https://guitar-la-next-js-lime.vercel.app/",
+      git: "https://github.com/NahuPardo/GuitarLANextJS",
     }
     
 
