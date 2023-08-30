@@ -25,7 +25,7 @@ export const data = [
     },
     {
       id: 4,
-      img: 'https://i.postimg.cc/YqNCJ7mD/Dise-o-sin-t-tulo-12.png',
+      img: 'https://i.postimg.cc/mZCRb9Tm/Dise-o-sin-t-tulo-13.png',
       title: "GuitarLA - Venta de Guitarras",
       desc: "",
       link: "https://guitar-la-next-js-lime.vercel.app/",

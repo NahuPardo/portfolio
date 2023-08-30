@@ -29,7 +29,7 @@ const WorkCard = () => {
               <div
                 className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
               >
-                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
+                <p className=" text-gray-900 leading-[1.4] w-[90%]">
                   {data.desc}
                 </p>
                 <div className=" flex items-center justify-center gap-4">
