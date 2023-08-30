@@ -36,7 +36,7 @@ const Skills = () => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex gap-10  w-3/4  my-5 md:w-[90%]">
-                <div className="first2 flex flex-col gap-10">
+                <div className="flex flex-col gap-10">
                 <SkillBox
                 logo={<IoLogoHtml5 />}
                 black={"black"}
