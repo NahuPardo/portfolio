@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
@@ -67,7 +67,7 @@ const Navbar = ({theme, setTheme}) => {
   return (
     <div
       className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
-        scrollPosition > 0 ? `bg-white shadow-md dark:bg-black` : "bg-transparent"
+        scrollPosition > 0 ? `bg-white shadow-md dark:bg-black dark:shadow-sky-400` : "bg-transparent"
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
