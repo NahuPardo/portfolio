@@ -29,13 +29,12 @@ const Skills = () => {
         </div>
         {/* content*/}
         <div className="flex md:flex-col ">
-          <div className="left flex-1 w-full">
-            {/* left box */}
+          <div className="w-full">
             <div
               data-aos="zoom-in"
-              className="progress flex items-center h-[100%] justify-end md:justify-center"
+              className="progress flex items-center h-[100%] justify-center"
             >
-              <div className=" flex gap-10  w-3/4  my-5 md:w-[90%]">
+              <div className="flex xl:grid xl:grid-cols-3 gap-10 justify-center my-5 w-full">
                 <div className="flex flex-col gap-10">
                 <SkillBox
                 logo={<IoLogoHtml5 />}
@@ -50,7 +49,7 @@ const Skills = () => {
                 skill={"CSS"}
                 />
                 </div>
-                <div className="last2 flex flex-col gap-10">
+                <div className="flex flex-col gap-10">
                 <SkillBox
                 logo={<SiJavascript />}
                 black={"white"}
@@ -64,7 +63,7 @@ const Skills = () => {
                 skill={"React"}
                 />
                 </div>
-                <div className="first2 flex flex-col gap-10">
+                <div className=" flex flex-col gap-10">
                 <SkillBox
                 logo={<SiTailwindcss />}
                 black={"black"}
@@ -80,7 +79,7 @@ const Skills = () => {
                 
                 />
                 </div>
-                <div className="first2 flex flex-col gap-10">
+                <div className=" flex flex-col gap-10">
               <SkillBox
                 logo={<IoLogoNodejs />}
                 black={"white"}
@@ -94,7 +93,7 @@ const Skills = () => {
                 skill={"MongoDB"}
               />
             </div>
-            <div className="last2 flex flex-col gap-10">
+            <div className=" flex flex-col gap-10">
               <SkillBox
                 logo={<SiExpress />}
                 black={"black"}
@@ -102,10 +101,7 @@ const Skills = () => {
                 skill={"Express Js"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <SiPhp/>
-                }
+                logo={<SiPhp/>}
                 black={"black"}
                 white={"white"}
                 skill={"PHP"}
@@ -113,10 +109,6 @@ const Skills = () => {
               </div>
               </div>
             </div>
-          </div>
-          
-          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-            
           </div>
         </div>
       </div>

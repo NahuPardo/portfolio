@@ -50,6 +50,11 @@ const Navbar = ({theme, setTheme}) => {
     setTheme(theme === "dark" ? "light" : 'dark')
   }
 
+  const darkMode = () => {
+    handleThemeSwitch()
+    toggleNav()
+  }
+
   
   const [scrollPosition, setScrollPosition] = useState(0);
   useEffect(() => {
@@ -128,7 +133,7 @@ const Navbar = ({theme, setTheme}) => {
               </li>
             ))}
             <li className="md:m-6 md:flex md:gap-6 md:items-center md:justify-center">
-            <button className="block mb-1" onClick={handleThemeSwitch}>
+            <button className="block mb-1" onClick={darkMode}>
                   {theme === "dark" ? <BsFillSunFill className="text-white"/> : <BsFillMoonFill/>}
             </button>
             </li>
