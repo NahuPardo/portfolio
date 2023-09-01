@@ -38,6 +38,10 @@ const Navbar = ({theme, setTheme}) => {
     setActiveIndex(name === activeIndex ? null : name);
   };
 
+  const cerrarNav = () => {
+    setIsOpen()
+  }
+
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add("dark");
@@ -52,7 +56,7 @@ const Navbar = ({theme, setTheme}) => {
 
   const darkMode = () => {
     handleThemeSwitch()
-    toggleNav()
+    cerrarNav()
   }
 
   
