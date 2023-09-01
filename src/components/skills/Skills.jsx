@@ -35,7 +35,7 @@ const Skills = () => {
               className="progress flex items-center h-[100%] justify-center"
             >
               <div className="flex xl:grid xl:grid-cols-3 gap-10 justify-center my-5 w-full">
-                <div className="flex flex-col gap-10">
+                <div className="flex items-center flex-col gap-10">
                 <SkillBox
                 logo={<IoLogoHtml5 />}
                 black={"black"}
@@ -49,7 +49,7 @@ const Skills = () => {
                 skill={"CSS"}
                 />
                 </div>
-                <div className="flex flex-col gap-10">
+                <div className="flex items-center flex-col gap-10">
                 <SkillBox
                 logo={<SiJavascript />}
                 black={"white"}
@@ -63,7 +63,7 @@ const Skills = () => {
                 skill={"React"}
                 />
                 </div>
-                <div className=" flex flex-col gap-10">
+                <div className=" flex items-center flex-col gap-10">
                 <SkillBox
                 logo={<SiTailwindcss />}
                 black={"black"}
@@ -79,7 +79,7 @@ const Skills = () => {
                 
                 />
                 </div>
-                <div className=" flex flex-col gap-10">
+                <div className=" flex items-center flex-col gap-10">
               <SkillBox
                 logo={<IoLogoNodejs />}
                 black={"white"}
@@ -93,7 +93,7 @@ const Skills = () => {
                 skill={"MongoDB"}
               />
             </div>
-            <div className=" flex flex-col gap-10">
+            <div className=" flex items-center flex-col gap-10">
               <SkillBox
                 logo={<SiExpress />}
                 black={"black"}

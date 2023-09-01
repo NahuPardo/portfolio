@@ -37,6 +37,15 @@ html {
   background: #000;
 }
 
+.dark ::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+.dark ::-webkit-scrollbar {
+  width: 7px;
+  scrollbar-color: black;
+}
+
 
 
 
