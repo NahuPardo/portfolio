@@ -92,7 +92,7 @@ const Hero = ({theme}) => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/gJvVHbb0/Dise-o-sin-t-tulo-5.png'
+              src='https://i.postimg.cc/L8hjVpbT/Dise-o-sin-t-tulo-5-1.webp'
               // src={mine}
               alt="mine"
             />
@@ -100,8 +100,10 @@ const Hero = ({theme}) => {
               <div data-aos="zoom-in" data-aos-duration="100"  className=" relative ">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src={`${theme === "light" ? "https://i.postimg.cc/fTtCtmt5/Full-Stack-Developer2.png" : "https://i.postimg.cc/FKRVvS4j/circle.png"}`}
+                  src={`${theme === "light" ? "https://i.postimg.cc/65KXR6Tk/Full-Stack-Developer2.webp" : "https://i.postimg.cc/ZYc3tnkH/circle.webp"}`}
                   alt="Front End Developer image"
+                  width="300"
+                  height="300"
                 />
                 <FaPlay
                   className=" text-black dark:text-white absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
