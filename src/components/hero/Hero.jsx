@@ -92,6 +92,7 @@ const Hero = ({theme}) => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
+              loading="lazy"
               src='https://i.postimg.cc/L8hjVpbT/Dise-o-sin-t-tulo-5-1.webp'
               // src={mine}
               alt="mine"
