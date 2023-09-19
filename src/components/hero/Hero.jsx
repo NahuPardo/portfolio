@@ -101,7 +101,7 @@ const Hero = ({theme}) => {
               <div data-aos="zoom-in" data-aos-duration="100"  className=" relative ">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src={`${theme === "light" ? "https://i.postimg.cc/65KXR6Tk/Full-Stack-Developer2.webp" : "https://i.postimg.cc/ZYc3tnkH/circle.webp"}`}
+                  src={`${theme === "light" ? "https://i.postimg.cc/vB1P7W5H/Full-Stack-Circle-W.webp" : "https://i.postimg.cc/85hpCrss/Full-Stack-Circle-B.webp"}`}
                   alt="Front End Developer image"
                   width="300"
                   height="300"
