@@ -77,10 +77,10 @@ const Resume = ({theme}) => {
                   Universidad Nacional De La Plata
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 dark:text-slate-200 sm:text-base">
-                  Analista Programador Universitario
+                  Licenciatura en Sistemas
                 </span>
                 <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-                  2022 - Actual
+                  2024 - Actual
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
               
