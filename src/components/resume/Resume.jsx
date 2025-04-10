@@ -27,24 +27,30 @@ const Resume = ({theme}) => {
             </legend>
             <div className=" relative">
               {/* design */}
-              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+              <div className="design flex absolute left-[-210px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
-                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="line w-[350px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-sky-500"></div>
               </div>
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] dark:text-sky-500 font-semibold sm:text-xl">
-                  Front End Developer
+                  Full Stack Developer
                 </h1>
                 <span className=" text-[.9rem] dark:text-slate-200 font-semibold text-gray-500 sm:text-base">
-                  Acudir Emergencias Medicas S.A
+                  Desarrollo Freelance
                 </span>
                 <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-                  Mayo 2022 - Abril 2023
+                  Mayo 2022 - Actual
                 </span>
-                <p className=" text-[.9rem] text-justify break-words text-gray-500 dark:text-slate-200">
-                Resolución, desarrollo de bugs, proyectos sistemas de ambulancias, aplicaciones de videoconsultas y gestiones medicas
+                <p className=" text-[.9rem] break-words text-gray-500 dark:text-slate-200">
+                <ul className="list-disc pl-5">
+                  <li>Desarrollo de aplicaciones junto a un equipo de trabajo freelance.</li>
+                  <li>Participación en todas las etapas: análisis, diseño, programación y pruebas.</li>
+                  <li>Uso de tecnologías como React.js, Node.js, .Net, y herramientas de control de versiones como Git.</li>
+                  <li>Comunicación con clientes para definir requerimientos y entregar soluciones a medida.</li>
+                  <li>Implementación de metodologías ágiles (Scrum) para organizar el trabajo en equipo y mejorar la productividad.</li>
+                </ul>
                 </p>
               </div>
             </div>
