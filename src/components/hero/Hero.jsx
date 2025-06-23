@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-//import resumePDF from "../../assets/CV-NP-FSDev.pdf";
+import resumePDF from "../../assets/CurriculumNP-FS.pdf";
 
 const Hero = ({theme}) => {
   return (
@@ -46,7 +46,7 @@ const Hero = ({theme}) => {
               <span> Contratame! </span>
             </a>
             <a
-              //href={resumePDF}
+              href={resumePDF}
               className="flex items-center gap-2 border- text-[1rem] bg-white dark:bg-black dark:text-white dark:hover:text-slate-300 border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-slate-400"
               download
             >
