@@ -6,14 +6,14 @@ export const data = [
       title: "Cotizador Cripto",
       desc: "",
       link: "https://proyecto3react-np.netlify.app/",
-      git: "https://github.com/NahuPardo/CotizadorCripto-React",
+      git: "https://github.com/NahuelPardo1/CotizadorCripto-React",
     },
     {
       id: 2,
       img: 'https://i.postimg.cc/KcqzDMS6/Dise-o-sin-t-tulo-10.webp',
       title: "Control de Gastos",
       link: "https://proyecto2react-np.netlify.app/",
-      git: "https://github.com/NahuPardo/ControlGastos-React",
+      git: "https://github.com/NahuelPardo1/ControlGastos-React",
     },
     {
       id: 3,
