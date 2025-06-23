@@ -1,4 +1,3 @@
-import React from "react";
 import {
   AiFillTwitterCircle,
   AiFillGithub,
@@ -27,7 +26,9 @@ const Hero = ({theme}) => {
               sequence={[
                 "Full Stack Developer",
                 2000,
-                "Web Developer",
+                "Front-End Developer",
+                2000,
+                "Back-End Developer",
                 2000,
               ]}
               speed={30}
