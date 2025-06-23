@@ -32,15 +32,18 @@ const WorkCard = () => {
                 <p className=" text-gray-900 leading-[1.4] w-[90%]">
                   {data.desc}
                 </p>
+
                 <div className=" flex items-center justify-center gap-4">
-                  <Link
-                    to={data.link}
-                    target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
-                  >
-                    <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Demo</p>
-                  </Link>
+                  {data.link !== "" && (
+                    <Link
+                      to={data.link}
+                      target="_blank"
+                      className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
+                    >
+                      <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
+                      <p className=" text-black">Demo</p>
+                    </Link>
+                  )}
                   <br className="w-[2px] bg-white" />
                   <Link
                     to={data.git}

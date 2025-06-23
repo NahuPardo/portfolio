@@ -94,7 +94,7 @@ const Resume = ({theme}) => {
                   Programación
                 </span>
                 <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-                  2021 - Actual
+                  2022 - Actual
                 </span>
                 <p className=" text-[.9rem] dark:text-slate-200 text-justify text-gray-500">
                 Desarrollo web completo - CSS3 | HTML5 | JavaScript| SASS | PHP | MySQL.

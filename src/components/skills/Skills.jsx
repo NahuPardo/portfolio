@@ -9,9 +9,10 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiExpress,
-  SiNextdotjs
+  SiNextdotjs,
+  SiDotnet
 } from "react-icons/si";
-import { SiPhp } from "react-icons/si";
+
 
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
@@ -101,10 +102,10 @@ const Skills = () => {
                 skill={"Express Js"}
               />
               <SkillBox
-                logo={<SiPhp/>}
+                logo={<SiDotnet />}
                 black={"black"}
                 white={"white"}
-                skill={"PHP"}
+                skill={".NET"}
               />
               </div>
               </div>

@@ -21,7 +21,7 @@ export const data = [
       title: "Seguimiento Pacientes Veterinaria",
       desc: "",
       link: "https://proyectoreact1np.netlify.app/",
-      git: "https://github.com/NahuPardo/AdministradorDePacientes",
+      git: "https://github.com/NahuelPardo1/AdministradorDePacientes",
     },
     {
       id: 4,
@@ -29,7 +29,15 @@ export const data = [
       title: "GuitarLA - Venta de Guitarras",
       desc: "",
       link: "https://guitar-la-next-js-lime.vercel.app/",
-      git: "https://github.com/NahuPardo/GuitarLANextJS",
+      git: "https://github.com/NahuelPardo1/GuitarLANextJS",
+    },
+    {
+      id: 5,
+      img: 'https://i.postimg.cc/sXRzVKLK/dotnet4logo.jpg',
+      title: "Sistema de Gestion del Centro Deportivo Universitario",
+      desc: "",
+      link: "",
+      git: "https://github.com/NahuelPardo1/SGCDU"
     }
     
 
